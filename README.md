@@ -1,27 +1,18 @@
-# EcommerceWeb
+# E-Commerce
+This is the monolitchic backend version of the project. The entire e-commerce project will cover complete e-commerce operations, including buyers, sellers, payment, shipping providers and logging.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Currently available projects are:<br/>
+[E-Commerce Backend Monolithic](https://github.com/cemalaydeniz/ecommerce.Backend.Monolithic) (.Net Core Web API 8.0)<br/>
+[E-Commerce Frontend Web](https://github.com/cemalaydeniz/ecommerce.Web) (Angular and Bootstrap - No Standalone)<br/>
+[E-Commerce Frontend Admin Console](https://github.com/cemalaydeniz/ecommerce.Admin) (Angular and Angular Material - Standalone)<br/>
 
-## Development server
+## To-Do List
+These are the features I am planning to add/implement/create. The entries in the to-do list have no priorities over each other and they might be added out of order.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Completing the web frontend for buyers and sellers with Angular and Bootstrap (no-standalone)
+- Completing the web frontend for an admin console with Angular and Angular Material (standalone)
+- Creating a microservice version of the backend (probably for Azure)
+- Creating a mobile application for both web frontend and shipping providers with React Native 
+- Creating a mobile application for shipping providers to scan QR codes to complete orders
+- AI assistant that helps users with questions related to the system
+- AI suggestions for buyers depending on their purchase histories, special dates etc.
